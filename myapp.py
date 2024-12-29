@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-from config import Config
+from app_config import Config
 from extensions import db
 from flask_migrate import Migrate
 
