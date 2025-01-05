@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Utama</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Ramadani Gymnastiar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Fitur">Fitur</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Tentang">Tentang</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section: Fitur -->
+    <section id="Fitur" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Fitur Dari Website Tugas Ini</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Login</h3>
+                            <p class="card-text">Login dengan memasukkan data yang telah didaftarkan. Data akan diperiksa melalui metode POST dan dicocokkan dengan database.</p>
+                            <a href="/login" class="btn btn-primary">Login</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Register</h3>
+                            <p class="card-text">Form pendaftaran untuk menyimpan data ke database. Data yang dimasukkan meliputi username, email, dan password.</p>
+                            <a href="/register" class="btn btn-success">Register</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Edit Data Pengguna</h3>
+                            <p class="card-text">Fitur ini memungkinkan admin untuk mengedit data pengguna yang terdaftar di website ini.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Role</h3>
+                            <p class="card-text">Fitur untuk menetapkan role pengguna (admin/user). Role dapat diubah oleh admin.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Hapus Pengguna</h3>
+                            <p class="card-text">Admin dapat menghapus pengguna yang terdaftar menggunakan fitur ini.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Logout</h3>
+                            <p class="card-text">Fitur untuk keluar dari website dan kembali ke halaman utama.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Model Database</h3>
+                            <p class="card-text">Database bernama `flask_login_last` dengan atribut: id, username, email, password_hash, dan role.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Tentang -->
+    <section id="Tentang" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Tentang Website Ini</h2>
+            <p>Website ini dirancang untuk memenuhi tugas akhir dan memaksimalkan fungsi yang dibutuhkan. Banyak usaha yang telah diberikan untuk mencapai hasil terbaik.</p>
+            <p>Terima kasih kepada dosen dan asisten yang telah membimbing hingga saat ini. Semua bimbingan sangat berarti untuk pengembangan minat dan bakat.</p>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFy38Bjtg1Ra1WVLq3I3SmhLl6O20n3a02lbpKfjM+OCdICp0G9lIMpDwF" crossorigin="anonymous"></script>
+</body>
+
+</html>
